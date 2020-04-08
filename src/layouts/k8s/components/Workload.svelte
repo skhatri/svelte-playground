@@ -35,15 +35,14 @@
   .card-body {
     padding: 0.25rem;
   }
-  .link {
-    cursor: pointer;
-  }
 </style>
 
 <main>
-  <div class="card border-primary" style="min-height: 30rem;">
+  <div class="card border-secondary" style="min-height: 30rem;">
     <div class="card-header">
-      {title} - {current_namespace}
+
+      <span class="font-weight-bold">{title} -</span>
+      <span class="badge badge-secondary">{current_namespace}</span>
       <span class="badge badge-dark">{items.length}</span>
     </div>
     <div class="card-body w-100">

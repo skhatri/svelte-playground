@@ -17,14 +17,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <Link to="/" class="nav-item nav-link active" href="#">
+        <Link to="/k8s" class="nav-item nav-link active" href="#">
           <span class="nav-item nav-link">K8s</span>
 
         </Link>
         <Link to="/widgets" class="nav-item nav-link" href="#">
           <span class="nav-item nav-link">Widgets</span>
         </Link>
-        <Link to="/todo" class="nav-item nav-link disabled" href="#">
+        <Link to="/" class="nav-item nav-link disabled" href="#">
           <span class="nav-item nav-link">TODO</span>
         </Link>
       </div>

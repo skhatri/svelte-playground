@@ -1,6 +1,6 @@
 <script>
-  import Namespace from "../components/Namespace.svelte";
-  import Workload from "../components/Workload.svelte";
+  import Namespace from "./components/Namespace.svelte";
+  import Workload from "./components/Workload.svelte";
 </script>
 
 <main>

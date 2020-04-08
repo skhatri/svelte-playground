@@ -1,6 +1,6 @@
 <script>
-  import Fibonacci from "../components/Fibonacci.svelte";
-  import Counter from "../components/Counter.svelte";
+  import Fibonacci from "./components/Fibonacci.svelte";
+  import Counter from "./components/Counter.svelte";
 </script>
 
 <main>
