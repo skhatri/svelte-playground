@@ -11,8 +11,6 @@
   async function addTodo() {
     let item = {
       id: id,
-      created: "",
-      updated: "",
       description: description,
       action_by: action_by,
       status: status
@@ -32,7 +30,7 @@
       });
     if (result && result.id) {
       feedback = `Added Task ${result.id}`;
-      todoEvent.set({ action: "ADD", id: result.id });
+      todoEvent.set({ action: "ADDDED", id: result.id });
       description = "";
       status = "";
       action_by = "";
